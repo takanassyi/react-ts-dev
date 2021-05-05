@@ -2,7 +2,9 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+import Button from '@material-ui/core/Button'
+
+const App:React.FC = () => {
   return (
     <div className="App">
       <header className="App-header">
@@ -13,6 +15,7 @@ function App() {
         <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer" >
           Learn React
         </a>
+        <Button color="primary" variant="contained">Button</Button>
       </header>
     </div>
   );
