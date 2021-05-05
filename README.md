@@ -26,7 +26,7 @@ A Developing Environment for React with TypeScript.
 - Visual Studio Code (Recommend)
   - Version: 1.55.2
 
-## How to build
+## How to use
 
 ### (Initial Setup)
 
