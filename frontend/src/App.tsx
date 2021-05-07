@@ -1,4 +1,6 @@
 import React from 'react';
+import { Button } from '@material-ui/core/';
+
 import logo from './logo.svg';
 import './App.css';
 
@@ -15,6 +17,9 @@ const App: React.FC = () => (
       >
         Learn React
       </a>
+      <Button variant="contained" color="primary">
+        test
+      </Button>
     </header>
   </div>
 );
