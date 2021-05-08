@@ -1,21 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
+// eslint-disable-next-line import/no-extraneous-dependencies
+import 'tailwindcss/tailwind.css';
+
 const App: React.FC = () => (
-  <div className="App">
-    <header className="App-header">
-      <img src={logo} className="App-logo" alt="logo" />{' '}
-      <p>Hello React from Docker Node.js</p>
-      <a
-        className="App-link"
-        href="https://reactjs.org"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Learn React
-      </a>
-    </header>
+  <div className="flex justify-center items-center py-48 bg-gray-400">
+    <h2 className="text-3xl text-yellow-400">HELLO WORLD</h2>
   </div>
 );
 
